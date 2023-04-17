@@ -3,7 +3,7 @@
    "how to change link color." */
 
 body {
-  background-color: linear-gradient(to bottom right, rgba(0,0,0,1), rgba(100,100,10,0));
+  background-color: linear-gradient(to bottom right,  rgba(165,165,255,1), rgba(255,255,255,1));
 ;
   color: white;
   font-family: Verdana;
