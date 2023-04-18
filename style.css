@@ -9,6 +9,16 @@ body {
 }
 
 
+.rz {
+    width: 400px;
+    height: auto;
+}
+
+.rz {
+    width: 300px;
+    height: auto;
+}
+
 
 /* unvisited link */
 a:link {
