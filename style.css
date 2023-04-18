@@ -18,3 +18,8 @@ a:link {
 a:visited {
   color: black;
 }
+
+div.img {
+width: 40%;
+ height: 40%;
+}
