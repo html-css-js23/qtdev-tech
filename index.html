@@ -1,4 +1,32 @@
 <!DOCTYPE html>
+/**
+ * This function creates a UI popup with a single button that says "Accept".
+ */
+<script>
+function createPopup() {
+  // Create the popup container
+  const popupContainer = document.createElement("div");
+  popupContainer.classList.add("popup-container");
+
+  // Create the popup content
+  const popupContent = document.createElement("div");
+  popupContent.classList.add("popup-content");
+
+  // Create the button
+  const acceptButton = document.createElement("button");
+  acceptButton.classList.add("accept-button");
+  acceptButton.innerText = "Accept";
+
+  // Add the button to the popup content
+  popupContent.appendChild(acceptButton);
+
+  // Add the popup content to the popup container
+  popupContainer.appendChild(popupContent);
+
+  // Add the popup container to the body
+  document.body.appendChild(popupContainer);
+}
+</script>
 <html>
   <head>
     <meta charset="UTF-8">
